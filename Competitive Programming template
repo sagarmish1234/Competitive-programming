@@ -26,12 +26,6 @@ const ll MOD = 1e9 + 7;
 const ll INF = 1e9;
 const ld EPS = 1e-9;
 
-// -------------------------<RNG>------------------------- 
-// RANDOM NUMBER GENERATOR
-mt19937 RNG(chrono::steady_clock::now().time_since_epoch().count());  
-#define SHUF(v) shuffle(all(v), RNG); 
-// Use mt19937_64 for 64 bit random numbers.
-
 void solve() {
     // Add your solution here
 }
